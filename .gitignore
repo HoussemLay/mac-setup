@@ -1,0 +1,12 @@
+!.*
+.CFUserTextEncoding
+.DS_Store
+.Trash/
+.dein/
+.kube/
+.local/
+.ssh/
+.zcompdump*
+.zsh-update
+.zsh_history
+github*
