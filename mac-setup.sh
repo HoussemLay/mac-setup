@@ -1,14 +1,17 @@
 #!/bin/bash
 
 #sudo xcode-select --install
-
+#author : Houssem Layouni
 # Install Brew!
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 brew tap homebrew/cask-fonts
 
 # Install casks for communication / utilities
-brew install --cask        slack \
+brew install --cask  google-chrome \
+			        slack \
+				whatsapp \
+				signal \
 			        zoom \
 			        dashlane \
 				visual-studio-code \
